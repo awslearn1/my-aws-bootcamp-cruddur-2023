@@ -2,7 +2,6 @@ import './App.css';
 
 import HomeFeedPage from './pages/HomeFeedPage';
 import UserFeedPage from './pages/UserFeedPage';
-import NotificationsFeedPage from './pages/NotificationsFeedPage';
 import SignupPage from './pages/SignupPage';
 import SigninPage from './pages/SigninPage';
 import RecoverPage from './pages/RecoverPage';
@@ -32,10 +31,6 @@ const router = createBrowserRouter([
   {
     path: "/messages/@:handle",
     element: <MessageGroupPage />
-  },
-  {
-    path: "/notifications",
-    element: <NotificationsFeedPage />
   },
   {
     path: "/signup",
